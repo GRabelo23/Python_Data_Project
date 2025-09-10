@@ -22,7 +22,7 @@ plt.show()
 
 ### Results 
 
-![Visualization of Top Skills for Data Jobs](Project/Images/skill_demang.png)
+![Visualization of Top Skills for Data Jobs](Project/Images/skill_demand.png)
 
 ### Insights:
 
