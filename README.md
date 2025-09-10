@@ -5,7 +5,7 @@
 To find the most demanded skills for the top 3 most puopular data roles, I filtered out those positions by which ones were the most popular, and got top 5 skills for these top 3 roles. This query highlights the most popular job titles and their top skills, showing which skills I should pay attention to depending on the my target role.
 
 View my notebook whit detailed steps there:
-[2_Skill_Demand.ipynb](Project\2_Skills_Demand.ipynb)
+[2_Skill_Demand.ipynb](2_Skills_Demand.ipynb)
 
 ### Visualize Data
 
@@ -22,7 +22,7 @@ plt.show()
 
 ### Results 
 
-![Visualization of Top Skills for Data Jobs](Project\Images\skill_demand.png)
+![Visualization of Top Skills for Data Jobs](Images/skill_demang.png)
 
 ### Insights:
 
@@ -31,6 +31,10 @@ plt.show()
 - Data Engineers require more specialized technical skills (AWS, Azure, Spark) compared to Data Analysts and Data Scientists who are expected to be proficient in more general data management and  analysis tools (Excel, Tableau).
 
 ## 2. How are in-demand skills trending for Data Analysts?
+
+To find how skills are trending in 2023 for Data Analysts, I filtered data analyst positions and grouped the skills by the month of the job postings. This got me the top 5 skills of data analysts by month, showing how popular skills were throughout 2023.
+
+View my notebook with detailed steps here: [3_Skills_Trend](3_Skills_Trend.ipynb).
 
 ```python 
 
@@ -46,7 +50,7 @@ plt.show()
 
 ### Results
 
-![Trending Skills for Data Analysts in the US](Project\Images\trending_skills.png)
+![Trending Skills for Data Analysts in the US](Images/trending_skills.png)
 
 ### Insights:
 
